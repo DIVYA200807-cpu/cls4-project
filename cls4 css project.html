@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form by pseudo</title>
+        <style>
+          inputItype="text"I{
+            border: 2px solid red;
+          } 
+          inputItype="password"I{
+            border: 2px solid yellow; 
+          }
+          /* child selctor*/
+          ul > li{
+            color: darkslategrey;
+          }
+          h1+p{
+            color: indigo;
+          }
+          a:hover{
+            color: lightsalmon;
+            font-size: 30px;
+          }
+          li:nth-child(2){
+            background-color: violet;
+          }
+          ul li::before{
+            content: colour;
+          }
+          a::after{
+            content: home;
+          }
+          p::first-letter{
+            color: turquoise;
+            font-size: 30px;
+          }
+          p:not(.cl1){
+            border: 3px dashed red;
+          }
+          p:not(.cl2){
+            border: 3px dashed red;
+          }
+    </style>
+</head>
+<body>
+   <h1>Advanced Selector</h1>
+   <p class="cl1">Personal Details</p>
+   <p class="cl2">Registration form</p>
+   <p>Welcome to my website</p>
+   <label for="Name">Name</label>
+   <input type="text"><br> <br>
+   <label for="password">password</label>
+   <input type="password">
+   <br> <br>
+   <ul>
+    <li>pen</li>
+    <li>pencil</li>
+    <li>colour</li>
+    <li>brushes</li>
+   </ul>
+   <a href="#Home">Home</a>
+</body>
+</html>
